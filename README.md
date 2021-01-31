@@ -1,2 +1,2 @@
 # Web_Practice
-HTML and CSS codes.
+HTML, CSS amd Javascript codes.
