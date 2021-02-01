@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <button onclick="demo()">
+        Click here
+        </button>
+
+        <p id="para">
+            This text will be replaced
+        </p>
+    </body>
+
+    <script>
+        function demo() {
+            var ele = document.getElementById("para");
+            ele.innerHTML = "New Text!";
+        }
+    </script>
+</html>

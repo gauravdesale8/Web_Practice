@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <button onclick="demo()">
+            Click here
+        </button>
+
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+    </body>
+
+    <script>
+        function demo() {
+            var ele = document.getElementsByTagName("p");
+            
+            ele[0].innerHTML = "Text Replaced !";
+        }
+    </script>
+</html>
