@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            .css {
+                font-size: 50px;
+                color: blueviolet;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <button onclick="demo()">
+            Click Here!!
+        </button>
+
+        <p id="para">
+            This is a paragraph.
+        </p>
+    </body>
+
+    <script type="text/javascript">
+        
+         function demo() {
+
+         var paragraph = document.getElementById("para");
+
+         var attribute = document.createAttribute("class");
+
+         attribute.value = "css";
+
+         paragraph.setAttributeNode(attribute);
+        }   
+    </script>
+</html>

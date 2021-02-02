@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+
+    <body>
+        
+        <div id="main">
+            
+            <button onclick="demo()">
+                Click here
+            </button>
+
+        </div>
+
+    </body>
+
+    <script>
+
+        function demo() {
+
+            var paragraph = document.createElement("p");
+
+            var text = document.createTextNode("This is a paragraph");
+
+            paragraph.appendChild(text);
+
+            var div = document.getElementById("main");
+
+            div.appendChild(paragraph)
+
+        }
+    </script>
+</html>

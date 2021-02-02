@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+
+    <body>
+
+        <div id="main">
+
+            <button onclick="demo()">
+                Click Here!
+            </button>
+
+        </div>
+    </body>
+
+    <script type="text/javascript">
+
+            function demo() {
+
+            var button = document.createElement("button");
+
+            button.innerHTML = "NEW button";
+
+            var div = document.getElementById("main");
+
+            div.appendChild(button)
+        }
+    </script>
+</html>
